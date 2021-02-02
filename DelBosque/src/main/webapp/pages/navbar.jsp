@@ -58,6 +58,6 @@
             });
         </script>
         <!-- partial -->
-        <script src="navbarScript.js"></script>
+        <script src="scripts/navbarScript.js"></script>
     </body>
 </html>
