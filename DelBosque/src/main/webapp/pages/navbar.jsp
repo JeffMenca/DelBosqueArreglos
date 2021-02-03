@@ -11,7 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Del Bosque</title>
-        <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/navbarStyle.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/style.css">
     </head>
     <body>
         <nav class="nav">
@@ -22,7 +22,7 @@
                 <div id="mainListDiv" class="main_list">
                     <ul class="navlinks">
                         <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Productos</a></li>
+                        <li><a href="${pageContext.request.contextPath}/catalogo.jsp">Productos</a></li>
                         <li><a href="#">Contacto</a></li>
                         <li><a href="#">Pedidos</a></li>
                     </ul>
@@ -35,7 +35,7 @@
             </div>
         </nav>
 
-        <div style="height: 1500px">
+        <div style="">
             <!-- just to make scrolling effect possible -->
 
             <div class="clearfix"></div>
