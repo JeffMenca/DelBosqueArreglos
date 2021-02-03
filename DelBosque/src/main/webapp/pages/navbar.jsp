@@ -5,18 +5,19 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Del Bosque</title>
-        <link rel="stylesheet" href="styles/navbarStyle.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/navbarStyle.css">
     </head>
     <body>
         <nav class="nav">
             <div class="container">
                 <div class="logo">
-                    <a href=""><img src="img/delBosque.png" alt="" width="135"></a>
+                    <a href=""><img src="${pageContext.request.contextPath}/img/delBosque.png" alt="" width="135"></a>
                 </div>
                 <div id="mainListDiv" class="main_list">
                     <ul class="navlinks">
@@ -59,5 +60,4 @@
         </script>
         <!-- partial -->
         <script src="scripts/navbarScript.js"></script>
-    </body>
-</html>
+   
