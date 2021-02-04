@@ -11,11 +11,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Del Bosque</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/style.css">
     </head>
     <body>
         <nav class="nav">
-            <div class="container">
+            <div class="containerNav">
                 <div class="logo">
                     <a href=""><img src="${pageContext.request.contextPath}/img/delBosque.png" alt="" width="135"></a>
                 </div>
@@ -35,7 +36,7 @@
             </div>
         </nav>
 
-        <div style="">
+        <div style="height: 150px;">
             <!-- just to make scrolling effect possible -->
 
             <div class="clearfix"></div>
