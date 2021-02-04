@@ -10,13 +10,13 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Del Bosque</title>
-        <link rel="stylesheet" href="styles/navbarStyle.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/navbarStyle.css?1.1">
     </head>
     <body>
         <nav class="nav">
             <div class="container">
                 <div class="logo">
-                    <a href=""><img src="img/delBosque.png" alt="" width="135"></a>
+                    <a href=""><img src="${pageContext.request.contextPath}/img/delBosque.png" alt="" width="135" ></a>
                 </div>
                 <div id="mainListDiv" class="main_list">
                     <ul class="navlinks">
@@ -34,7 +34,7 @@
             </div>
         </nav>
 
-        <div style="height: 1500px">
+        <div >
             <!-- just to make scrolling effect possible -->
 
             <div class="clearfix"></div>
@@ -58,6 +58,6 @@
             });
         </script>
         <!-- partial -->
-        <script src="scripts/navbarScript.js"></script>
+        <script src="${pageContext.request.contextPath}/scripts/navbarScript.js"></script>
     </body>
 </html>
