@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 /*
     NAVBAR
@@ -346,6 +347,9 @@ body {
 /*
     CATALOGO DE PRODUCTOS
 */
+.pattern-diagonal-stripes-lg {
+    color: #A89FA6;
+}
 
 .producto figure{
     position: relative;
@@ -416,9 +420,9 @@ body {
 }
 
 .contenido .card{
-    height: 200px;
+    height: auto;
     width: 100%;
-    margin-bottom: 140px;
+    margin-bottom: 05px;
     background-color: black;
 }
 
@@ -475,7 +479,7 @@ body {
 }
 
 .box-precio span {
-    font-size: 20px;
+    font-size: 30px;
     font-family: "New Century Schoolbook", serif;
 }
 
@@ -519,49 +523,36 @@ body {
     BARRA DE BUSCADOR
 */
 
-.buscador {
-    position: relative;
-    height: 100px;
-    width: 500px;
+.divBuscador{
+    width: 100%;
+    height: auto;
+    background-color: #fdd2c1;
+    margin-top: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-left-style: none;
+    border-right-style: none;
 }
 
-.buscador .form-search {
-    position: absolute;
-    right: 0px;
-    top: 0px;
+.tituloBarra h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 63px;
+    font-weight: 900;
+    text-align: center;
+    color: #000204;
 }
 
-.buscador .form-search input[type=text]{
-    -webkit-appearance: textfield;
-    -webkit-box-sizing: content-box;
-    font-family: inherit;
-    font-size: 100%;
-    border: solid 1px #ccc;
-    padding: 9px 18px;
-    width: 60px;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    transition: all .5s;
-    position:absolute;
-    right:0px;
-    z-index:1000;
-    padding:8px 12px;
-    cursor:pointer;
+#linea1{
+    border-top: 2px dashed #c56cf0;
+    width: 80%;
 }
 
-.buscador .form-search div.input-group {
-    width:60px;
+#linea2{
+    border-top: 2px dashed #c56cf0;
+    width: 60%;
 }
 
-.buscador .form-search input[type=text]:focus {
-    position:absolute;
-    right:60px;
-    width:250px;
-}
 
-.buscador .form-search button.btn {
-    padding:15px 12px;
-    border-top-right-radius:4px;
-    border-bottom-right-radius: 4px;
-    cursor:not-allowed;
-}
