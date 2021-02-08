@@ -36,9 +36,8 @@ var Chef = {
     misc: function() {
         // Misc stuff
         
-        for (var i = 1; i <= 3; i++) {
-            $('.product').parent().eq(0).clone().appendTo('.product-list');
-        }
+            $('.product').appendTo('.product-list');
+
     }
 };
 
