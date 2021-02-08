@@ -1,3 +1,3 @@
         <%@include  file="pages/navbar.jsp" %>
-    </body>
+        </body>
 </html>
