@@ -1,25 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap%27');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-/*
-    NAVBAR
-*/
-
-body {
-    margin: 0;
-    padding: 0;
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+*, *:before, *:after {
+    box-sizing: border-box;
 }
 
-/* Navbar */
+.lighter-text {
+    color: #ABB0BE;
+}
 
-.nav {
-    width: 100%;
-    height: 65px;
-    position: fixed;
-    line-height: 65px;
-    text-align: center;
-    z-index: 10;
+.main-color-text {
+    color: #6394F8;
 }
 
 .nav div.logo {
@@ -30,15 +21,115 @@ body {
     z-index: 10;
 }
 
-.nav div.main_list {
+nav {
+    padding: 20px 0 20px 0;
+    background: #111;
     height: 65px;
-    float: right;
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+    font-size: 22px;
     z-index: 10;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 
+nav .navbar-left {
+    float: left;
+}
+nav .navbar-right {
+    float: right;
+}
+nav ul li {
+    display: inline;
+    padding-left: 20px;
+}
+nav ul li a {
+    color: #777777;
+    text-decoration: none;
+}
+nav ul li a:hover {
+
+    color: #fdd2c1;
+
+}
+.nav div.main_list ul li a:hover {
+    color: #fdd2c1;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.badge {
+    background-color: #6394F8;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.shopping-cart {
+    margin: 20px 0;
+    float: right;
+    background: white;
+    width: 320px;
+    position: relative;
+    border-radius: 3px;
+    padding: 20px;
+    display: none;
+}
+.shopping-cart .shopping-cart-header {
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 15px;
+}
+.shopping-cart .shopping-cart-header .shopping-cart-total {
+    float: right;
+}
+.shopping-cart .shopping-cart-items {
+    padding-top: 20px;
+}
+.shopping-cart .shopping-cart-items li {
+    margin-bottom: 18px;
+}
+.shopping-cart .shopping-cart-items img {
+    float: left;
+    margin-right: 12px;
+}
+.shopping-cart .shopping-cart-items .item-name {
+    display: block;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.shopping-cart .shopping-cart-items .item-price {
+    color: #6394F8;
+    margin-right: 8px;
+}
+.shopping-cart .shopping-cart-items .item-quantity {
+    color: #ABB0BE;
+}
+
+.shopping-cart:after {
+    bottom: 100%;
+    left: 89%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: white;
+    border-width: 8px;
+    margin-left: -8px;
+
+}
 .nav div.main_list ul {
-    width: 100%;
-    height: 65px;
     display: flex;
     list-style: none;
     margin: 0;
@@ -48,42 +139,49 @@ body {
 
 .nav div.main_list ul li {
     width: auto;
-    height: 65px;
-    padding: 0;
-    padding-right: 3rem;
+    height: 45px;
     z-index: 10;
+
 }
 
 .nav div.main_list ul li a {
     text-decoration: none;
     color: #fff;
-    line-height: 65px;
     font-family: "Quicksand", sans-serif;
-    font-size: 22px;
-    z-index: 10;
+}
+.cart-icon {
+    color: #515783;
+    font-size: 24px;
+    margin-right: 7px;
+    float: left;
 }
 
-.nav div.main_list ul li a:hover {
-    color: #00E676;
-    z-index: 10;
+.button {
+    background: #6394F8;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 25px 0 15px 0;
+}
+.button:hover {
+    background: #729ef9;
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .navTrigger {
     display: none;
     z-index: 10;
 }
 
-.nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    z-index: 10;
-}
-
-/* Media qurey section */
-
-@media screen and (max-width:768px) {
+@media screen and (max-width:968px) {
     .navTrigger {
         display: block;
     }
@@ -341,4 +439,113 @@ body {
     }
 }
 
+.container {
+    margin: auto;
+    width: 80%;
+}
 
+.badge {
+    background-color: #6394F8;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.shopping-cart {
+    margin: 20px 0;
+    float: right;
+    background: white;
+    width: 320px;
+    position: relative;
+    border-radius: 3px;
+    padding: 20px;
+
+
+    .shopping-cart-header {
+        border-bottom: 1px solid #E8E8E8;
+        padding-bottom: 15px;
+
+        .shopping-cart-total {
+            float: right;
+        }
+    }
+
+    .shopping-cart-items {
+
+        padding-top: 20px;
+
+        li {
+            margin-bottom: 18px;
+        }
+
+        img {
+            float: left;
+            margin-right: 12px;
+        }
+
+        .item-name {
+            display: block;
+            padding-top: 10px;
+            font-size: 16px;
+        }
+
+        .item-price {
+            color: #6394F8;
+            margin-right: 8px;
+        }
+
+        .item-quantity {
+            color: #ABB0BE;
+        }
+    }
+
+}
+
+.shopping-cart:after {
+    bottom: 100%;
+    left: 89%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: white;
+    border-width: 8px;
+    margin-left: -8px;
+}
+
+.cart-icon {
+    color: #515783;
+    font-size: 24px;
+    margin-right: 7px;
+    float: left;
+}
+
+.button {
+    background: #6394F8;
+    color:white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 25px 0 15px 0;
+
+    &:hover {
+        background: lighten(#6394F8, 3%);
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

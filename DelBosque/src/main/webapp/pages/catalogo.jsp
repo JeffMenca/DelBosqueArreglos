@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/catalogoStyle.css">
     </head>
     <body>
-        <%@include  file="navbar.jsp" %>
+        <%@include  file="navbarcart.jsp" %>
 
         <div class="pattern-diagonal-stripes-lg">
             <div class="divBuscador">

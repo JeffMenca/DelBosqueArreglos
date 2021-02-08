@@ -92,7 +92,7 @@
                                 $(".shopping-cart").toggle("show");
                             }
         </script>
-        <script src="${pageContext.request.contextPath}/scripts/navbarScript.js?1.1"></script>
+        <script src="${pageContext.request.contextPath}/scripts/navbarCartScript.js"></script>
 
     </body>
 </html>
