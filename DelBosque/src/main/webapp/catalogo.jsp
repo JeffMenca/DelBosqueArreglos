@@ -7,6 +7,26 @@
             <h1>Catalogo de productos</h1>
             <hr id="linea2"> 
         </div>
+        <div class="cover">
+            <form method="get" action="">
+                <div class="tb">
+                    <div class="td"><input type="text" placeholder="Buscar" required></div>
+                    <div class="td" id="s-cover">
+                        <button type="submit">
+                            <div id="s-circle"></div>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="coverSelect">
+            <select class="categoria">
+                <option value="">Selecciona una categoria</option>
+                <option value="">Selecciona categoria</option>
+                <option value="">Selecciona categoria</option>
+            </select>
+        </div>
     </div>
     <div class="cuadricula">
         <% for (int i = 0; i < 10; i++) { %>
