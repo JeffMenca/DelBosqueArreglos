@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap%27');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 /*
     CATALOGO DE PRODUCTOS
@@ -137,8 +138,8 @@
 }
 
 .box-precio span {
-    font-size: 30px;
-    font-family: "New Century Schoolbook", serif;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .shoping{
@@ -396,6 +397,7 @@ select::-ms-expand {
     padding: 0 .5em;
     color: #fff;
     cursor: pointer;
+    font-family: 'Lato', sans-serif;
 }
 
 .coverSelect::after {
