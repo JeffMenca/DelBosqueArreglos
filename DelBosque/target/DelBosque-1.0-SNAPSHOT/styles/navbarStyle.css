@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/*
+    NAVBAR
+*/
+
 body {
     margin: 0;
     padding: 0;
@@ -12,6 +19,7 @@ body {
     position: fixed;
     line-height: 65px;
     text-align: center;
+    z-index: 10;
 }
 
 .nav div.logo {
@@ -19,11 +27,13 @@ body {
     width: auto;
     height: auto;
     padding-left: 23px;
+    z-index: 10;
 }
 
 .nav div.main_list {
     height: 65px;
     float: right;
+    z-index: 10;
 }
 
 .nav div.main_list ul {
@@ -33,6 +43,7 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    z-index: 10;
 }
 
 .nav div.main_list ul li {
@@ -40,6 +51,7 @@ body {
     height: 65px;
     padding: 0;
     padding-right: 3rem;
+    z-index: 10;
 }
 
 .nav div.main_list ul li a {
@@ -48,14 +60,17 @@ body {
     line-height: 65px;
     font-family: "Quicksand", sans-serif;
     font-size: 22px;
+    z-index: 10;
 }
 
 .nav div.main_list ul li a:hover {
     color: #00E676;
+    z-index: 10;
 }
 
 .navTrigger {
     display: none;
+    z-index: 10;
 }
 
 .nav {
@@ -63,6 +78,7 @@ body {
     padding-bottom: 20px;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
+    z-index: 10;
 }
 
 /* Media qurey section */
@@ -324,3 +340,8 @@ body {
         width: 100%;
     }
 }
+
+.containerNav {
+    width: 100%;
+}
+
