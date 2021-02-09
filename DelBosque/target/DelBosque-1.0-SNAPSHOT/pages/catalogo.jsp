@@ -76,7 +76,6 @@
                         <div class="box-precio">
                             <span><b>Q 35.00</b></span>
                         </div>
-                        <span class="shoping"><i class="fas fa-cart-plus"></i></span>
                     </div>
                 </div>
                 <%  }%>

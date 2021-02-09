@@ -41,8 +41,8 @@
         </nav>
 
 
-        <div class="container" style="z-index: 25">
-            <div class="shopping-cart" id="shopping-cart" style="z-index: 25">
+        <div class="container" style="">
+            <div class="shopping-cart" id="shopping-cart" style="">
                 <div class="shopping-cart-header">
                     <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">3</span>
                     <div class="shopping-cart-total">

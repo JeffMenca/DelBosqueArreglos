@@ -419,3 +419,10 @@ select::-ms-expand {
 .coverSelect:hover::after {
   color: #7efff5;
 }
+
+@media only screen and (max-width: 800px) {
+    .divBuscador {
+        height: auto+10px;
+    }
+
+}

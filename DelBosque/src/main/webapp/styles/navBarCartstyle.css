@@ -458,6 +458,7 @@ nav ul li a:hover {
 }
 
 .shopping-cart {
+    left: 61%;
     margin: 20px 0;
     float: right;
     background: white;
@@ -465,7 +466,8 @@ nav ul li a:hover {
     position: relative;
     border-radius: 3px;
     padding: 20px;
-
+    z-index: 100;
+    position: absolute;
 
     .shopping-cart-header {
         border-bottom: 1px solid #E8E8E8;
@@ -548,4 +550,16 @@ nav ul li a:hover {
     content: "";
     display: table;
     clear: both;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .shopping-cart {
+        left: 10%;
+    }
 }
