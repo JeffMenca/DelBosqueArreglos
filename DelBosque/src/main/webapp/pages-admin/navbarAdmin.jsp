@@ -27,7 +27,6 @@
                     <ul class="navbar-right">
                         <li><a href="#">Productos</a></li>
                         <li><a href="#">Pedidos</a></li>
-                        <li><a href="#">Categoria</a></li>
                         <li><a href="#">Cerrar sesion</a></li>
                     </ul> <!--end navbar-left -->
                 </div>
@@ -84,12 +83,12 @@
         <!-- partial -->
 
         <script>
-                            /* When the user clicks on the button, 
-                             toggle between hiding and showing the shop car content */
+            /* When the user clicks on the button, 
+             toggle between hiding and showing the shop car content */
 
-                            function showCart() {
-                                $(".shopping-cart").toggle("show");
-                            }
+            function showCart() {
+                $(".shopping-cart").toggle("show");
+            }
         </script>
         <script src="${pageContext.request.contextPath}/scripts/navbarCartScript.js"></script>
 
