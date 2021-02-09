@@ -14,7 +14,7 @@
     </head>
     <body>
          
-        
+  
         
         <%@include file="navbarcart.jsp" %>
         <main>

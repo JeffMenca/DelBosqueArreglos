@@ -25,9 +25,10 @@
                 </ul> 
                 <div id="mainListDiv" class="main_list">
                     <ul class="navbar-right">
-                        <li><a href="#">Inicio</a></li>
                         <li><a href="#">Productos</a></li>
                         <li><a href="#">Pedidos</a></li>
+                        <li><a href="#">Categoria</a></li>
+                        <li><a href="#">Cerrar sesion</a></li>
                     </ul> <!--end navbar-left -->
                 </div>
                 <span class="navTrigger">
