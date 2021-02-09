@@ -204,13 +204,17 @@
 }
 
 #linea1{
+    border-style: none;
     border-top: 2px dashed #cd84f1;
     width: 80%;
+    margin-bottom: 25px; 
 }
 
 #linea2{
+    border-style: none;
     border-top: 2px dashed #cd84f1;
     width: 60%;
+    margin-top: 25px;
 }
 
 /*  SEARCH BAR */
@@ -225,7 +229,7 @@
     vertical-align: middle;
 }
 
-.cover input, button {
+.cover input {
     color: #fff;
     font-family: Nunito;
     padding: 0;
@@ -234,6 +238,15 @@
     background-color: transparent;
 }
 
+.cover button {
+    color: #fff;
+    font-family: Nunito;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+    
+}
 .cover {
     width: 60%;
     padding: 35px;

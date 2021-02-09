@@ -21,7 +21,7 @@
     z-index: 10;
 }
 
-nav {
+.nav {
     padding: 20px 0 20px 0;
     background: #111;
     height: 65px;
@@ -34,23 +34,22 @@ nav {
     top: 0;
 }
 
-nav .navbar-left {
+.nav .navbar-left {
     float: left;
 }
-nav .navbar-right {
+.nav .navbar-right {
     float: right;
 }
-nav ul li {
+.nav ul li {
     display: inline;
     padding-left: 15px;
 }
-nav ul li a {
+.nav ul li a {
     color: #777777;
     text-decoration: none;
 
 }
-nav ul li a:hover {
-
+.nav ul li a:hover {
     color: #fdd2c1;
 
 }
