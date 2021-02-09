@@ -3,7 +3,7 @@
 <html lang="en" >
     <head>
         <meta charset="UTF-8">
-        <title>CodePen - Product view page</title>
+        <title>Ver Producto</title>
         <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/productStyle.css?1.5">
         <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
