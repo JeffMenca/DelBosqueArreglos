@@ -28,7 +28,6 @@
                         <li><a href="#">Inicio</a></li>
                         <li><a href="#">Productos</a></li>
                         <li><a href="#">Pedidos</a></li>
-                        <li><a href="#">Pedidos</a></li>
                     </ul> <!--end navbar-left -->
                 </div>
                 <span class="navTrigger">
