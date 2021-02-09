@@ -79,6 +79,7 @@ nav ul li a:hover {
     margin: 20px 0;
     float: right;
     background: white;
+
     width: 320px;
     position: relative;
     border-radius: 3px;
@@ -458,7 +459,7 @@ nav ul li a:hover {
 }
 
 .shopping-cart {
-    left: 61%;
+    right: 11%;
     margin: 20px 0;
     float: right;
     background: white;
