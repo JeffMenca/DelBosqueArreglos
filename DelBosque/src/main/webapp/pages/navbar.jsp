@@ -24,6 +24,7 @@
                         <li><a href="#">Productos</a></li>
                         <li><a href="#">Contacto</a></li>
                         <li><a href="#">Pedidos</a></li>
+                        <li><a href="#">Login</a></li>
                     </ul>
                 </div>
                 <span class="navTrigger">
