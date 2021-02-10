@@ -474,3 +474,8 @@ select::-ms-expand {
     }
 
 }
+
+a {
+    text-decoration: none;
+    color: white;   
+}

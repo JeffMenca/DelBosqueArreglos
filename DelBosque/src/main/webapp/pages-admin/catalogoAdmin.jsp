@@ -66,7 +66,7 @@
                         <b>Q 35.00</b>
                     </div>
                     <div class="frozen-btn">
-                        <button class="green">Editar</button>
+                        <button class="green"><a href="#">Editar</a></button>
                     </div>
                     <div class="frozen-btn">
                         <button class="red" onclick="confirmDelete()">Eliminar</button>
