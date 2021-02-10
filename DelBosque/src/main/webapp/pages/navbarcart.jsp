@@ -29,34 +29,13 @@
                             </button>
                         </div> 
                         <div class="dropdown">
-                            <button class="dropbtn">Productos
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
-                            </div>
+                            <button class="dropbtn">Productos</button>
                         </div> 
                         <div class="dropdown">
-                            <button class="dropbtn">Contacto
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
-                            </div>
+                            <button class="dropbtn">Contacto</button>
                         </div> 
                         <div class="dropdown">
-                            <button class="dropbtn">Pedidos
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
-                            </div>
+                            <button class="dropbtn">Pedidos</button>
                         </div> 
                         <li><a href="#" id="cart"  onclick="showCart()"><i class="fa fa-shopping-cart"></i> Cart <span class="badge">3</span></a></li>
                     </ul> <!--end navbar-left -->

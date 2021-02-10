@@ -9,14 +9,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
         <title>Del Bosque</title>
         <link href="https://unpkg.com/pattern.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="${pageContext.request.contextPath}/styles/catalogoStyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
     </head>
     <body>
-        <%@include  file="../pages/navbarcart.jsp" %>
+        <%@include  file="navbarAdmin.jsp" %>
 
         <div class="pattern-diagonal-stripes-lg">
             <div class="divBuscador">
@@ -76,7 +79,6 @@
                         <div class="box-precio">
                             <span><b>Q 35.00</b></span>
                         </div>
-                        <span class="shoping"><i class="fas fa-cart-plus"></i></span>
                     </div>
                 </div>
                 <%  }%>

@@ -23,11 +23,24 @@
                         <a href=""><img src="${pageContext.request.contextPath}/img/delBosque.png" alt="" width="135" ></a>
                     </div>
                 </ul> 
-                <div id="mainListDiv" class="main_list">
+                <d<div id="mainListDiv" class="main_list">
                     <ul class="navbar-right">
-                        <li><a href="#">Productos</a></li>
-                        <li><a href="#">Pedidos</a></li>
-                        <li><a href="#">Cerrar sesion</a></li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Productos</button>
+                        </div> 
+                        <div class="dropdown">
+                            <button class="dropbtn">Pedidos
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Pedidos nuevos</a>
+                                <a href="#">Pedidos confirmados</a>
+                                <a href="#">Pedidos enviados</a>
+                            </div>
+                        </div> 
+                        <div class="dropdown">
+                            <button class="dropbtn">Cerrar sesion</button>
+                        </div> 
                     </ul> <!--end navbar-left -->
                 </div>
                 <span class="navTrigger">
