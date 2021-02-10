@@ -25,17 +25,24 @@
                 <div id="mainListDiv" class="main_list">
                     <ul class="navbar-right">
                         <div class="dropdown">
-                            <button class="dropbtn">Inicio
+                            <button class="dropbtn">
+                                <a href="#">Inicio</a>
                             </button>
                         </div> 
                         <div class="dropdown">
-                            <button class="dropbtn">Productos</button>
+                            <button class="dropbtn">
+                                <a href="#">Productos</a>
+                            </button>
                         </div> 
                         <div class="dropdown">
-                            <button class="dropbtn">Contacto</button>
+                            <button class="dropbtn">
+                                <a href="#">Contacto</a>
+                            </button>
                         </div> 
                         <div class="dropdown">
-                            <button class="dropbtn">Pedidos</button>
+                            <button class="dropbtn">
+                                <a href="#">Pedidos</a>
+                            </button>
                         </div> 
                         <li><a href="#" id="cart"  onclick="showCart()"><i class="fa fa-shopping-cart"></i> Cart <span class="badge">3</span></a></li>
                     </ul> <!--end navbar-left -->

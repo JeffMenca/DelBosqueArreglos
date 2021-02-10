@@ -602,3 +602,8 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.dropbtn a{
+    text-decoration: none; 
+    color: white;
+}

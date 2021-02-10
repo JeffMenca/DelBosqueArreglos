@@ -26,20 +26,30 @@
                 <d<div id="mainListDiv" class="main_list">
                     <ul class="navbar-right">
                         <div class="dropdown">
-                            <button class="dropbtn">Productos</button>
-                        </div> 
-                        <div class="dropdown">
-                            <button class="dropbtn">Pedidos
+                            <button class="dropbtn">
+                                <a href="#">Productos</a>
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
-                                <a href="#">Pedidos nuevos</a>
-                                <a href="#">Pedidos confirmados</a>
-                                <a href="#">Pedidos enviados</a>
+                                <a href="#">Ver y Editar</a>
+                                <a href="#">Agregar</a>
                             </div>
                         </div> 
                         <div class="dropdown">
-                            <button class="dropbtn">Cerrar sesion</button>
+                            <button class="dropbtn">
+                                <a href="#">Pedidos</a>
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Nuevos</a>
+                                <a href="#">Confirmados</a>
+                                <a href="#">Enviados</a>
+                            </div>
+                        </div> 
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                <a href="#">Cerrar sesion</a>
+                            </button>
                         </div> 
                     </ul> <!--end navbar-left -->
                 </div>

@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/*
+    CATALOGO DE PRODUCTOS
+*/
+.pattern-diagonal-stripes-lg {
+    color: #A89FA6;
+}
+
+
+
+@-webkit-keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+
+@keyframes circle {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+
+
+.cuadricula{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenido{
+    height: auto;
+    width: 25%;
+    box-shadow:0 0 7px #111 ;
+    margin: 30px 30px;
+    background-color: black;
+}
+
+.contenido .card{
+    height: auto;
+    width: 100%;
+    margin-bottom: 05px;
+    background-color: black;
+}
+
+.card img{
+    margin: auto;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.informacion{
+    height: auto;
+    width: 100%;
+}
+
+.informacion h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-bottom: 03px;
+}
+
+.informacion p{
+    height: 100px;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: .9em;
+    color: #ccc;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    margin-left: 08px;
+    margin-right: 08px;
+
+}
+
+.precio {
+    height: 50px;
+    width: 85%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.frozen-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.frozen-btn button {
+  border: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 15px 50px;
+  border-radius: 50px;
+  color: white;
+  outline: none;
+  position: relative;
+}
+
+.frozen-btn button:before{
+  content: '';
+  display: block;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.4) 50%);
+  background-size: 210% 100%;
+  background-position: right bottom;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom:0;
+  right:0;
+  left: 0;
+  border-radius: 50px;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.green {
+   background-image: linear-gradient(to right, #7d5fff, #7158e2);
+   box-shadow: 0 4px 15px 0 #cd84f1;
+}
+
+.red {
+   background-image: linear-gradient(to right, #ff4d4d, #ff3838);
+   box-shadow: 0 4px 15px 0 #ff4d4d;
+}
+  
+.red:hover:before {
+  background-position: left bottom;
+}
+
+.green:hover:before {
+  background-position: left bottom;
+}
+
+
+@media (max-width:320px)
+{
+    .contenido{
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+@media (max-width:600px)
+{
+    .contenido{
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width:700px)
+{
+    .contenido{
+        width: 80%;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width:900px)
+{
+    .contenido{
+        width: 40%;
+        margin: 30px 20px;
+    }
+}
+
+/*
+    BARRA DE BUSCADOR
+*/
+
+.divBuscador{
+    width: 100%;
+    height: auto;
+    background-color: #ffb8b8;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.tituloBarra h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 63px;
+    font-weight: 900;
+    text-align: center;
+    color: #000204;
+}
+
+#linea1{
+    border-style: none;
+    border-top: 2px dashed #cd84f1;
+    width: 80%;
+    margin-bottom: 25px; 
+}
+
+#linea2{
+    border-style: none;
+    border-top: 2px dashed #cd84f1;
+    width: 60%;
+    margin-top: 25px;
+}
+
+/*  SEARCH BAR */
+
+.tb {
+    display: table;
+    width: 100%;
+}
+
+.td {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cover input {
+    color: #fff;
+    font-family: Nunito;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.cover button {
+    color: #fff;
+    font-family: Nunito;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+    
+}
+
+.cover {
+    width: 60%;
+    padding: 35px;
+    background-color: #3d3d3d;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #ff7c7c, 0 0 0 20px #ffffffeb;
+    transform: scale(0.6);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+.cover form {
+    height: 30px;
+}
+
+.cover input[type="text"] {
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+}
+
+.cover input[type="text"]::placeholder {
+    color: #ffe8f0;
+}
+
+#s-cover {
+    width: 1px;
+    padding-left: 35px;
+}
+
+.cover button {
+    position: relative;
+    display: block;
+    width: 84px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#s-circle {
+    position: relative;
+    top: -20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    margin-top: 0;
+    border-width: 15px;
+    border: 5px solid #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: 0.5s ease all;
+}
+
+.cover button span {
+    position: absolute;
+    top: 24px;
+    left: 40px;
+    display: block;
+    width: 45px;
+    height: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    transform: rotateZ(52deg);
+    transition: 0.5s ease all;
+}
+
+.cover button span:before, button span:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 45px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    transform: rotateZ(0);
+    transition: 0.5s ease all;
+}
+
+#s-cover:hover #s-circle {
+    top: -1px;
+    width: 67px;
+    height: 15px;
+    border-width: 0;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+#s-cover:hover span {
+    top: 50%;
+    left: 75px;
+    width: 25px;
+    margin-top: -9px;
+    transform: rotateZ(0);
+}
+
+#s-cover:hover button span:before {
+    bottom: 11px;
+    transform: rotateZ(52deg);
+}
+
+#s-cover:hover button span:after {
+    bottom: -11px;
+    transform: rotateZ(-52deg);
+}
+
+#s-cover:hover button span:before, #s-cover:hover button span:after {
+    right: -6px;
+    width: 40px;
+    background-color: #fff;
+}
+
+/* SELECT CATEGORIA */
+
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+/* Remove IE arrow */
+
+select::-ms-expand {
+    display: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.coverSelect {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #3d3d3d;
+    overflow: hidden;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.coverSelect select{
+    flex: 1;
+    padding: 0 .5em;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
+
+.coverSelect::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #7158e2;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+
+.categoria option{
+    background-color: #3d3d3d;
+}
+
+/* Transition */
+
+.coverSelect:hover::after {
+  color: #7efff5;
+}
+
+@media only screen and (max-width: 800px) {
+    .divBuscador {
+        height: auto+10px;
+    }
+
+}
