@@ -15,7 +15,6 @@
     <body>
         <!-- partial:index.partial.html -->
         <nav class="nav">
-
             <div class="container">
                 <ul class="navbar-left">
                     <div class="logo">
@@ -24,26 +23,10 @@
                 </ul> 
                 <div id="mainListDiv" class="main_list">
                     <ul class="navbar-right">
-                        <div class="dropdown">
-                            <button class="dropbtn">
-                                <a href="#">Inicio</a>
-                            </button>
-                        </div> 
-                        <div class="dropdown">
-                            <button class="dropbtn">
-                                <a href="#">Productos</a>
-                            </button>
-                        </div> 
-                        <div class="dropdown">
-                            <button class="dropbtn">
-                                <a href="#">Contacto</a>
-                            </button>
-                        </div> 
-                        <div class="dropdown">
-                            <button class="dropbtn">
-                                <a href="#">Pedidos</a>
-                            </button>
-                        </div> 
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Pedidos</a></li>
                         <li><a href="#" id="cart"  onclick="showCart()"><i class="fa fa-shopping-cart"></i> Cart <span class="badge">3</span></a></li>
                     </ul> <!--end navbar-left -->
                 </div>

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
 *, *:before, *:after {
     box-sizing: border-box;
 }
@@ -570,7 +571,7 @@
   outline: none;
   color: white;
   background-color: inherit;
-  font-family: inherit;
+  font-family: 'Lato', sans-serif;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
